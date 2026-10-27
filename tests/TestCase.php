@@ -2,8 +2,8 @@
 
 namespace Wernersoderstrom\HealthchecksHelper\Tests;
 
-use Wernersoderstrom\HealthchecksHelper\HealthchecksHelperServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Wernersoderstrom\HealthchecksHelper\HealthchecksHelperServiceProvider;
 
 class TestCase extends Orchestra
 {
