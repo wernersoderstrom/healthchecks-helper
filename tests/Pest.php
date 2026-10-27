@@ -1,5 +1,5 @@
 <?php
 
-use Lasselehtinen\HealthchecksHelper\Tests\TestCase;
+use Wernersoderstrom\HealthchecksHelper\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

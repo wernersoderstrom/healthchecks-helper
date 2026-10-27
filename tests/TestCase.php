@@ -1,8 +1,8 @@
 <?php
 
-namespace Lasselehtinen\HealthchecksHelper\Tests;
+namespace Wernersoderstrom\HealthchecksHelper\Tests;
 
-use Lasselehtinen\HealthchecksHelper\HealthchecksHelperServiceProvider;
+use Wernersoderstrom\HealthchecksHelper\HealthchecksHelperServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

@@ -7,7 +7,7 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Response;
 use Illuminate\Console\Scheduling\Schedule;
-use Lasselehtinen\HealthchecksHelper\HealthchecksHelper;
+use Wernersoderstrom\HealthchecksHelper\HealthchecksHelper;
 
 const UUID = '5b3f6a5e-8c1d-4b8e-9f2a-1c3d4e5f6a7b';
 

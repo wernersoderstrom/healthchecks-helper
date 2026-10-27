@@ -1,9 +1,9 @@
 # Healthchecks helper for the Laravel scheduler
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/lasselehtinen/healthchecks-helper.svg?style=flat-square)](https://packagist.org/packages/lasselehtinen/healthchecks-helper)
-[![GitHub Tests Action Status](https://github.com/lasselehtinen/healthchecks-helper/actions/workflows/run-tests.yml/badge.svg)](https://github.com/lasselehtinen/healthchecks-helper/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://github.com/lasselehtinen/healthchecks-helper/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/lasselehtinen/healthchecks-helper/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/lasselehtinen/healthchecks-helper.svg?style=flat-square)](https://packagist.org/packages/lasselehtinen/healthchecks-helper)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/wernersoderstrom/healthchecks-helper.svg?style=flat-square)](https://packagist.org/packages/wernersoderstrom/healthchecks-helper)
+[![GitHub Tests Action Status](https://github.com/wernersoderstrom/healthchecks-helper/actions/workflows/run-tests.yml/badge.svg)](https://github.com/wernersoderstrom/healthchecks-helper/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://github.com/wernersoderstrom/healthchecks-helper/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/wernersoderstrom/healthchecks-helper/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/wernersoderstrom/healthchecks-helper.svg?style=flat-square)](https://packagist.org/packages/wernersoderstrom/healthchecks-helper)
 
 Adds a `healthchecks()` method to scheduled events, so instead of:
 
@@ -28,7 +28,7 @@ Schedule::command('backup:run')
 You can install the package via composer:
 
 ```bash
-composer require lasselehtinen/healthchecks-helper
+composer require wernersoderstrom/healthchecks-helper
 ```
 
 That's all you need if you use check UUIDs and ping the hosted Healthchecks.io service. Pings are enabled by default and go to `https://hc-ping.com`, so you don't need to publish the config file or set any environment variables.

@@ -1,6 +1,6 @@
 <?php
 
-// config for Lasselehtinen/HealthchecksHelper
+// config for Wernersoderstrom/HealthchecksHelper
 return [
 
     /*

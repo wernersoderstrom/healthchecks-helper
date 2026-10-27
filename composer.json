@@ -1,14 +1,14 @@
 {
-    "name": "lasselehtinen/healthchecks-helper",
+    "name": "wernersoderstrom/healthchecks-helper",
     "description": "Ping Healthchecks.io from the Laravel scheduler with a single method call",
     "keywords": [
-        "lasselehtinen",
+        "wernersoderstrom",
         "laravel",
         "healthchecks",
         "healthchecks.io",
         "scheduler"
     ],
-    "homepage": "https://github.com/lasselehtinen/healthchecks-helper",
+    "homepage": "https://github.com/wernersoderstrom/healthchecks-helper",
     "license": "MIT",
     "authors": [
         {
@@ -37,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Lasselehtinen\\HealthchecksHelper\\": "src/"
+            "Wernersoderstrom\\HealthchecksHelper\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lasselehtinen\\HealthchecksHelper\\Tests\\": "tests/",
+            "Wernersoderstrom\\HealthchecksHelper\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -64,7 +64,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Lasselehtinen\\HealthchecksHelper\\HealthchecksHelperServiceProvider"
+                "Wernersoderstrom\\HealthchecksHelper\\HealthchecksHelperServiceProvider"
             ]
         }
     },

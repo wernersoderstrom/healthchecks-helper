@@ -1,6 +1,6 @@
 <?php
 
-namespace Lasselehtinen\HealthchecksHelper;
+namespace Wernersoderstrom\HealthchecksHelper;
 
 use Illuminate\Console\Scheduling\Event;
 use Illuminate\Support\ServiceProvider;
